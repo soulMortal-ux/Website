@@ -1,0 +1,262 @@
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu:wght@500&display=swap');
+
+
+*{
+	margin: 0;
+	padding: 0;
+}
+
+.logo{
+
+	width:20%;
+	display: flex;
+	justify-content: center;
+}
+
+.logo img{
+
+	width: 70%;
+	border-radius: 50px;
+    border: 3px solid red;
+}
+
+.navbar{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: sticky;
+    top: 0;
+    cursor: pointer;
+}
+
+.nav-list{
+    width: 70%;
+    color: black;
+    display: inline-flex;
+    justify-content: center;
+    padding: 3px;
+    background-color: black;
+    
+}
+
+.nav-list li{
+	
+	text-decoration: none;
+    list-style: none;
+    padding: 25px 25px;
+    font-weight: bold;
+    font-family: "Times New Roman", Times, serif;
+
+}
+
+.nav-list li a{
+	padding: 2px;
+	color: white;
+
+}
+
+
+.nav-list li a:hover{
+    
+    color: crimson;
+    
+}
+
+.rightNAV{
+    
+	width: 35%;
+	text-align: right;
+	padding:10px;
+	
+}
+
+#search{
+    padding: 5px;
+    font-family: sans-serif;
+    font-size: 17px;
+    border:2px solid grey;
+    border-radius: 9px;
+    
+}
+
+.background{
+	background: rgba(0,0,0,0.7) url("../img/1.jpg");
+	background-size: cover;
+	background-position: center;
+	background-repeat: no-repeat;
+
+	
+}
+
+.box-main{
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	color: white;
+	max-width: 50%;
+    margin: auto;
+	font-family: 'Segoe UI',Geneva, Verdana, sans-serif;
+	height: 80%
+}
+
+.firstSection{
+
+	height: 99vh;
+}
+
+.fhalf{
+   width: 80%;
+   display: flex;
+   flex-direction: column;
+   justify-content: center;
+
+}
+
+.shalf{
+   width: 30%;
+}
+
+.shalf img{
+	width: 70%;
+	display: block;
+	margin: auto; 
+	border-radius: 70px;
+	border: 3px solid red;
+}
+
+.text-big{
+    font-size: 30px;
+    text-shadow: 2px 2px #ff0000;
+    padding: 5px;
+   
+
+}
+}
+
+.text-small{
+    font-size: 20px;
+    font-style: italic;
+    text-align: center;
+    padding: 5px;
+}
+
+.btn{
+	padding:3px;
+	margin: 3px;
+	border: 3px solid crimson;
+	border-radius: 20px;
+	font-size: 16px;
+	font-family: "Lucida Grande", Geneva, Verdana, Arial, Helvetica, sans-serif;
+	color: black;
+	background: none;
+    cursor: pointer;
+}
+
+.btn-sm{
+	padding: 3px 10px;
+	vertical-align: middle;
+}
+
+.section{
+	height: 300px;
+	display: flex;
+	margin: auto;
+	justify-content: center;
+	align-items: center;
+    max-width: 80%;
+    font-family: 'Ubuntu', sans-serif;
+    border-radius: 5%;
+}
+
+.secTag{
+	font-family: italic;
+	font-size: 30px;
+	font-weight: bolder;
+}
+
+.paras{
+	padding: 4px;
+}
+
+.Left{	
+	
+	flex-direction: row-reverse;
+	background-color: darkred;
+	background-blend-mode: darken;
+	}
+
+.secSubTag{
+	font-family: 'Segoe UI',Geneva, Verdana, sans-serif;
+}
+
+.thumbnail img{
+	width: 250px;
+	border: 2px;
+	border: 3px solid crimson;
+	border-radius: 100px; 
+}
+
+.contact{
+	height: 50vh;
+    background-color: #ff9800bf;
+	background-blend-mode: darken;
+}
+
+.heading{
+	display: flex;
+	text-align: center;
+	color:black;
+	text-shadow: 2px 2px #ff9800bf;
+    margin: auto;
+    font-size: 41px;
+    font-weight: bolder;
+}
+
+.conpara{
+	display: flex;
+}
+
+.form{
+	
+	padding: 2px;
+    
+    margin: auto;
+    max-width: 348px;
+}
+
+.form input{
+	padding: 2px 1px;
+	font-weight: bold;
+	border: 2px solid crimson;
+	border-radius: 15px;
+	font-size: 16px;
+	width: 100%;
+	display: flex;
+	margin: 30px 0;
+    font-family: 'Segoe UI',Geneva, Verdana, sans-serif;
+}
+
+.bton{
+	padding:5px;
+	margin: 3px;
+	border: 2px solid crimson;
+	
+	font-size: 16px;
+	font-family: "Lucida Grande", Geneva, Verdana, Arial, Helvetica, sans-serif;
+	color: #030548;
+	background: none;
+    cursor: pointer;
+    margin-left: 400px;
+    margin-top: 0;
+}
+
+.foot{
+	text-align: center;
+	justify-content: center;
+	background-color: black;
+}
+.footext{
+	color: white;
+}
+
+media only screen and (max-width: )
